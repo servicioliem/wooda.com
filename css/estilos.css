@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: rgb(255, 255, 255);
+}
+
+header  {
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.redes {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.redes img {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+
+}
+.redes a {
+	margin-top: 4px;
+
+}
+
+section {
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.zon {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 21px;
+	margin: 12px;
+
+}
+
+.logotipo div img {
+	width: 250px;
+	margin: 30px;
+}
+
+.subtitulo div h2{
+	color: rgb(0, 0, 0);
+	font-size: 35px;
+	font-family:"Josefin Slab" ;
+	font-weight: bold;
+	margin: 2px;
+	text-align: center;
+}
+
+video {
+	width: 100%;
+	border-radius: 50%;
+	
+}
+
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.arib{
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 21px;
+	margin: 12px;
+}
+
+.arbol {
+	border: 1px solid rgb(255, 255, 255);
+	width: 254px;
+	/* border-radius: 10%; */
+	text-align: center;
+	color: rgb(255, 255, 255);
+	margin: 15px;
+	background-color: rgb(61, 161, 3);
+	
+
+	
+}
+
+.arbol img{
+	 
+	/* border-top-right-radius: 11%; */
+	/* border-top-left-radius: 11%; */
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+}
+
+.arbol h3{
+	padding: 10px;
+	font-size: 21px;
+
+
+}
+
+p{
+	padding: 10px;
+}
+footer {
+	background: #5a6161;
+	color: #fff;
+	width: 100%;
+	padding: 4px;
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+	
+}
+
+footer a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
+
+.namas {
+
+	background-color: rgb(2, 126, 126);
+}
+.locat {
+	width: 70px;
+	height: 70px;
+}
